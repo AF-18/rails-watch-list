@@ -1,0 +1,7 @@
+<h1>Liste des bookmarks</h1>
+
+<%= form_with model: @bookmark do |f| %>
+  <%= f.label :comment %>
+  <%= f.text_field :comment %>
+  <%= f.submit %>
+<% end %>
